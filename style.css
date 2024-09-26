@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color: blue;
+    overflow: hidden;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    float: left;
+}
+
+@media screen and (max-width:1440px) {
+    nav{
+        width: 100%;
+        display: block;
+        float: left;
+    }
+    div img{
+        width: 25%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+        background-color: black;
+    }
+    nav a {
+        width: 100%;
+        float: none;
+        color: white;
+    }
+    div img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    nav{
+        background-color: black;
+    }
+    nav a {
+        width: 100%;
+        float: none;
+        color: white;
+    }
+    div img{
+        width: 100%;
+    }
+}
+    
